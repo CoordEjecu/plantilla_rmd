@@ -10,6 +10,9 @@ all: check coverage
     setup \
     tests
 
+reports/plantilla.pdf: reports/plantilla.Rmd
+	Rscript -e "rmarkdown::render('reports/plantilla.Rmd')"
+
 check:
 	R -e "library(styler)" \
       -e "resumen <- style_dir('R')" \

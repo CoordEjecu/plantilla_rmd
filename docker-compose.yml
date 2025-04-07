@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: coordEjecu/plantilla_r
+    image: coordEjecu/plantilla_rmd
     command: bash
     volumes:
       - $PWD:/workdir

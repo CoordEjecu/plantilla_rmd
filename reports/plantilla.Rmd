@@ -1,0 +1,5 @@
+---
+title: "Plantilla de Rmd"
+output:
+  pdf_document: default
+---
