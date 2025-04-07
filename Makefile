@@ -24,6 +24,7 @@ check:
 clean:
 	rm --force *.tar.gz
 	rm --force --recursive tests/testthat/_snaps
+    rm --force reports/plantilla.pdf
 	rm --force NAMESPACE
 
 coverage: setup tests
